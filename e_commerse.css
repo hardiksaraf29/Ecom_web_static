@@ -1,0 +1,352 @@
+*
+{
+    margin: 0px;
+}
+
+/* -------Start first Pink Part-------------  */
+.header
+{
+    /* position: fixed; */
+    top: 60px;
+    right: 20px;
+    z-index: 2;    
+}
+
+.container
+{
+    background: linear-gradient(to top left, #ffffff 0%, #ff99ff 100%);
+    height: 100vh;
+}
+.nav-bar
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+    margin-top: -40px;
+}
+li:hover
+{
+    background-color: rgb(230, 53, 53);
+    border-radius: 20px;
+}
+
+.nav-bar li
+{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    padding: 15px;
+    font-size: 18px;
+}
+a
+{
+    text-decoration: none;
+}
+.cart_img
+{
+    padding: 5px;
+    width: 30px;
+    height: 30px;    
+}
+.logo_img
+{
+    padding: 5px;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;    
+}
+.workout_div
+{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 100px;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+.explore_btn
+{
+    font-size: 15px;
+    text-align: center;
+    width: 180px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #ff7300;
+    color: white;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.explore_btn:hover
+{
+    background-color: rgb(77, 65, 65);
+    cursor: pointer;
+    border: none;
+}
+.football_img
+{
+    background-image: url("./images/images/image1.png");
+    background-size: cover;
+    height: 500px;
+    width: 550px;
+    border: none;
+    position: absolute;
+    left: 600px;
+}
+/* -------End first Pink Part-------------  */
+
+
+/* ------------Start second part Images-------------  */
+
+.category_img
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.category_img img
+{
+    width: 400px;
+    height: 450px;
+    padding: 20px;
+}
+/* ------------End second part Images-------------  */
+
+
+/* ------------Start product Details-------------  */
+
+.heading
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: underline orangered 5px; 
+}
+.product_container
+{
+    /* height: 270px;
+    width: 200px; */
+    display: flex;
+    justify-content: center;
+}
+
+.product_img
+{
+    width: 220px;
+    height: 240px;
+    padding: 10px;
+    padding-top: 50px;
+    text-align: center;
+}
+.product_img img
+{
+    width: inherit;
+    height: 200px;
+}
+
+.colored
+{
+    color:red;   
+}
+.product_img:hover
+{
+    cursor: pointer;
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+/* ------------End product Details-------------  */
+
+
+ /* ------------Start Smart Band------------- */
+.smart_band_container
+{
+    background: linear-gradient(to top left, #ffffff 0%, #ff99cc 100%);
+    height: 450px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+.band_details
+{
+    width: 50%;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* position: absolute; */
+
+}
+.band_details p
+{
+    padding-top: 15px;
+    font-size: 15px;
+    text-align: start;
+}
+.band_details h1
+{
+    padding-top: 20px ;
+}
+
+.band_img
+{
+    /* border: red solid 5px; */
+    background-image: url("./images/images/exclusive.png");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 25px;
+    top: 70px;
+    transition: 1s;
+}
+.band_img:hover
+{
+    transform: scale(1.2,1.2);
+
+}
+
+.description
+{
+    position: absolute;
+    left: 500px;
+    top: 80px;
+}
+.description a
+{
+    padding: 15px;
+
+}
+
+ /* ------------End Smart Band------------- */
+
+
+ /* ------------Start Testimonial------------- */
+.test_div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ .test_container
+{
+    box-shadow: 0px 10px 10px rgb(128, 124, 124);
+    height: 350px;
+    width: 200px;
+    text-align: center;
+    margin: 30px;
+    padding: 25px;
+
+}
+.test_container img
+{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+.test_container:hover
+{
+    cursor: pointer;
+    animation: headShake;
+    animation-duration: 2s;
+    background-color: lightblue;
+    transition: 0.5s;
+}
+
+ /* ------------End Testimonial------------- */
+ 
+ /* ------------Start Sponsors------------- */
+.sponsor
+{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    filter: ;
+}
+.sponsor div
+{
+    padding-left: 30x;
+}
+.sponsor div img
+{
+    width: 100%;
+    filter: grayscale(100%);
+}
+.sponsor div img:hover
+{
+    cursor: pointer;
+    filter: grayscale(0%);
+}
+
+/* ------------End Sponsors------------- */
+ 
+/* ------------Start Footer------------- */
+
+.background_container
+{
+    color: #8a8a8a;
+    background: rgb(10, 10, 10);
+    height: 250px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer_logo
+{
+    width: 120px;
+    height: 40px;
+}
+.col_1
+{
+    color: #8a8a8a;
+
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.para{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.col_cent
+{
+    text-align: center;
+}
+
+.CopyRight
+{
+    color: #8a8a8a;
+
+    position: absolute;
+    bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.CopyRight hr
+{
+    margin-top: 8px;
+    width: 1000px;
+}
+
+.background_container h3{
+    color: white;
+}
+
+/* ------------End Footer------------- */
